@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+   background: linear-gradient(30deg, red,yellow,orange);
+}
+.sobre{
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 12px;
+    border: 2px solid black;
+    background-color: grey;
+}
+.titulo{
+    font-size: 25pt;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 50px;
+}
+.img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 2px solid black;
+    display: inline-flex;
+}
+.Avatar4{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  
+   
+
+}
+
+
+.texto{
+    text-align: justify;
+    padding-top: 300px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    font-size: 25px;
+}
+.botao{
+  position: relative;
+   width: 5px;
+   height: 5px;
+   justify-content: space-between;
+ 
+
+}
+
+a{
+    background-color: rgb(2, 68, 129);
+    text-decoration: none;
+    color: white;
+    padding: 4px 5px;
+    position: absolute;
+    border-radius: 5px;
+    border: 2px solid white;
+    
+    
+}
+.botao a:hover{
+    background: rgb(58, 57, 57);
+    color: rgb(252, 248, 248);
+}
